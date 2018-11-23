@@ -39,7 +39,8 @@ li{
     font-weight: bold;
     background-image: url("./images/nav_line.gif");
     background-repeat: no-repeat;
-    padding-left: 5px
+    background-position-x: 100%; 
+    padding-right: 8px
 
 }
 #nav li a{
@@ -48,38 +49,66 @@ li{
 #nav li a:hover{
     background-image: url("./images/nav_hover.gif");
     background-repeat: no-repeat;
-   background-position: 10px
+    background-position: 10px
 }
 #placard {
-    margin: 10px 100px;
-    border: 1px solid blue;
+    margin: 10px 195px;
 }
 #announce {
     height: 30px;
-    border: 1px solid red;
 }
-#adverse {
-    height: 60px;
-    border: 1px solid red;
-}    
-#content {
-    margin: 0 100px;
-    border: 1px solid blue;
+#announce span {
+    font-weight: bold;
 }
-#news {
-    height: 100px;
-    width: 70%;
-    float: left;
-    border: 1px solid red;
-}
-#person {
-    height: 100px;
-    width: 20%;
+#announce span:nth-of-type(2) {
     float: right;
-    border: 1px solid red;
-}
+    color: red;
+}   
+
+
 #picture {
     height: 50px;
     clear: both;
     border: 1px solid red;
+}
+
+#content {
+    margin: 0 195px;
+}
+
+#news,#person{
+    display: inline-block;
+    height: 200px;
+    border: 1px solid rebeccapurple
+}
+
+#news{
+    width: 70%
+}
+#person{
+    width: 28%
+}
+
+#person header{
+    padding: 5px;
+    background-image: url("./images/soso2.jpg");
+    height: 35px;
+}
+#person header span{
+    color: blueviolet;
+    font-size: 14px;
+    font-weight: bold
+}
+#information ul{
+    padding: 0
+}
+#information ul li{
+    width: 100%;
+    display: block
+}
+#person header span:nth-of-type(2){
+    float: right;
+}
+.head, .introduction{
+    display: inline-block
 }
