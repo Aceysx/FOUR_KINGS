@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+#signUp {
+    color: red;
+}
+#header {
+    background-image: url("images/guagua_01.jpg");
+    width: 100%;
+    height: 99px;
+}
+#menu {
+    margin-left: 900px;
+}
+#menu li{
+    float: left;
+}
+#nav {
+    background: rgb(131, 231, 248);
+    width: 100%;
+    height: 40px;
+    padding: 5px 0;
+}
+#nav ul {
+    margin: 0 22%;
+    line-height: 40px
+}
+#nav li{
+    float: left;
+    margin: 0 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-image: url("./images/nav_line.gif");
+    background-repeat: no-repeat;
+    padding-left: 5px
+
+}
+#nav li a{
+    color: white
+}
+#nav li a:hover{
+    background-image: url("./images/nav_hover.gif");
+    background-repeat: no-repeat;
+   background-position: 10px
+}
+#placard {
+    margin: 10px 100px;
+    border: 1px solid blue;
+}
+#announce {
+    height: 30px;
+    border: 1px solid red;
+}
+#adverse {
+    height: 60px;
+    border: 1px solid red;
+}    
+#content {
+    margin: 0 100px;
+    border: 1px solid blue;
+}
+#news {
+    height: 100px;
+    width: 70%;
+    float: left;
+    border: 1px solid red;
+}
+#person {
+    height: 100px;
+    width: 20%;
+    float: right;
+    border: 1px solid red;
+}
+#picture {
+    height: 50px;
+    clear: both;
+    border: 1px solid red;
+}
