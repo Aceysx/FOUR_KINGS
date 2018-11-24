@@ -133,11 +133,11 @@ li{
     font-size: 14px;
     font-weight: bold;
     display: inline-block;
-    padding: 5px;
+    padding: 7px;
 }
 #content header img{
     overflow: hidden;
-    clip: rect(0 32px 35px 0);
+    clip: rect(0 32px 30px 0);
     position: absolute;
 }
 #content header span:nth-of-type(1){
