@@ -54,7 +54,7 @@ li{
     background-position: 10px
 }
 #placard {
-    margin: 5px 195px;
+    margin: 5px 202px;
 }
 #announce {
     padding: 3px 10px;
@@ -76,38 +76,76 @@ li{
 }
 
 #content {
-    margin: 0 195px;
+    margin: 0 202px;
 }
-
+#main {
+    padding: 5px;
+}
+.report, .judge {
+    margin: 10px;
+}
+.rep_head, .jud_head {
+    color: blue;
+    margin-bottom: 5px;
+}
+.jud_content {
+    line-height: 2;
+}
+.judge img {
+    margin: 25px 10px 0 0;
+}
+#main img {
+    float: left;
+}
+.report {
+    float: left;
+}
+.rep_content {
+    border-bottom: 1px dashed gray;
+    padding: 5px;
+    font-size: 70%;
+}
+.jud_content {
+    font-size: 70%;
+}
 #news,#person{
-    display: inline-block;
-    /* height: 200px; */
+    /* display: inline-block; */
+    height: 250px;
     border: 1px solid grey;
 }
 
 #news{
-    width: 70%
+    width: 71%;
+    float: left;
 }
 #person{
-    width: 28%
+    width: 28%;
+    float: right;
 }
 
-#person header{
+#content header{
     /* padding: 5px; */
     background-image: url("./images/soso2.jpg");
     height: 35px;
 }
-#person header span{
+#content header span{
     color: blueviolet;
     font-size: 14px;
     font-weight: bold;
     display: inline-block;
     padding: 5px;
 }
-#person header img{
+#content header img{
     overflow: hidden;
     clip: rect(0 32px 35px 0);
     position: absolute;
+}
+#content header span:nth-of-type(1){
+    float: left;
+    margin-left: 32px; 
+}
+#content header span:nth-of-type(2){
+    float: right;
 }
 #information {
     padding: 5px;
@@ -120,16 +158,16 @@ li{
     display: block;
     margin: 5px;
 }
-#person header span:nth-of-type(1){
-    float: left;
-    margin-left: 32px; 
-}
-#person header span:nth-of-type(2){
-    float: right;
-}
+
 .introduction {
     padding-left: 5px;
 }
 .head, .introduction{
     display: inline-block;
+}
+#clear {
+    clear: both;
+}
+#picture {
+    margin-top: 5px;
 }
