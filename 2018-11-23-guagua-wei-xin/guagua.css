@@ -12,7 +12,7 @@ li{
     color: red;
 }
 #header {
-    background-image: url("images/guagua_01.jpg");
+    background-image: url("./images/guagua_01.jpg");
     width: 100%;
     height: 99px;
 }
@@ -23,7 +23,9 @@ li{
     float: left;
 }
 #nav {
-    background: rgb(131, 231, 248);
+    /* background: rgb(131, 231, 248); */
+    background-image: url("./images/banner.jpg");
+    background-size: 100% 100%; 
     width: 100%;
     height: 40px;
     padding: 5px 0;
@@ -34,13 +36,13 @@ li{
 }
 #nav li{
     float: left;
-    margin: 0 5px;
+    margin: 0 8px;
     font-size: 16px;
     font-weight: bold;
     background-image: url("./images/nav_line.gif");
     background-repeat: no-repeat;
     background-position-x: 100%; 
-    padding-right: 8px
+    padding-right: 15px
 
 }
 #nav li a{
@@ -52,20 +54,21 @@ li{
     background-position: 10px
 }
 #placard {
-    margin: 10px 195px;
+    margin: 5px 195px;
 }
 #announce {
-    height: 30px;
+    padding: 3px 10px;
+    height: 24px;
+    background-image: url("./images/soso2.jpg");
 }
 #announce span {
     font-weight: bold;
+    /* line-height: 30px; */
 }
 #announce span:nth-of-type(2) {
     float: right;
     color: red;
 }   
-
-
 #picture {
     height: 50px;
     clear: both;
@@ -78,8 +81,8 @@ li{
 
 #news,#person{
     display: inline-block;
-    height: 200px;
-    border: 1px solid rebeccapurple
+    /* height: 200px; */
+    border: 1px solid grey;
 }
 
 #news{
@@ -90,25 +93,43 @@ li{
 }
 
 #person header{
-    padding: 5px;
+    /* padding: 5px; */
     background-image: url("./images/soso2.jpg");
     height: 35px;
 }
 #person header span{
     color: blueviolet;
     font-size: 14px;
-    font-weight: bold
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px;
+}
+#person header img{
+    overflow: hidden;
+    clip: rect(0 32px 35px 0);
+    position: absolute;
+}
+#information {
+    padding: 5px;
 }
 #information ul{
     padding: 0
 }
 #information ul li{
     width: 100%;
-    display: block
+    display: block;
+    margin: 5px;
+}
+#person header span:nth-of-type(1){
+    float: left;
+    margin-left: 32px; 
 }
 #person header span:nth-of-type(2){
     float: right;
 }
+.introduction {
+    padding-left: 5px;
+}
 .head, .introduction{
-    display: inline-block
+    display: inline-block;
 }
